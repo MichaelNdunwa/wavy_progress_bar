@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to iLoveMusic</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="wavy-slider">
+        <div class="container">
+            <button id="playButton">Play/Pause</button>
+            <div class="wave-container" id="waveContainer">
+              <svg width="100%" height="100%" preserveAspectRatio="none" id="waveSvg">
+                <path class="wave-path" id="wavePath"/>
+              </svg>
+              <div class="progress-mask" id="progressMask"></div>
+            </div>
+            <div class="time-display" id="timeDisplay">0:00 / 0:00</div>
+          </div>
+          
+</body>
+<script src="wavyslide.js"></script>
+</html>
